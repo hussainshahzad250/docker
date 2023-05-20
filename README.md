@@ -1,5 +1,9 @@
+# Glone the repo
+	`https://github.com/hussainshahzad250/docker.git`
+	
 # Go inside
-	`cd docker-projects/jupiter-project`
+	`cd docker/docker-projects/jupiter-project`
+	
 # Build docker image 
 	`docker build -t my-web .`
 
