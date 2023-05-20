@@ -1,4 +1,6 @@
-# Build docker image
+# Go inside
+	`cd docker-projects/jupiter-project`
+# Build docker image 
 	`docker build -t my-web .`
 
 # Run docker image
