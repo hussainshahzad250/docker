@@ -1,0 +1,9 @@
+-  docker images               To check docker images
+-  docker rmi <image-id>       To Remove docker image
+-  docker ps                   To Check all running container
+-  docker ps -a                To Check all running container + stopped container
+-  docker stop <container-id>  To Stop docker container
+-  docker start <container-id> To start docker container
+-  docker rm <container-id>    To remove docker container
+-  docker logs <container-id>  To check container logs
+-  docker system prune -a      To clean all unused image, stopped conatiner and cache
