@@ -8,6 +8,13 @@ This script provides a convenient way to manage Docker images and containers thr
 
 ## Usage
 
+### To create docker image
+
+```bash
+docker build -t <image_name>:<image_version> .
+```
+
+
 ### Docker Images
 
 To list all Docker images:
@@ -64,6 +71,11 @@ To check the logs of a container:
 
 ```bash
 docker logs <container_name_or_id>
+```
+
+### To go inside docker container 
+```bash
+docker exec -it <container_id>  /bin/bash
 ```
 
 ### System Cleanup
